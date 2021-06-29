@@ -1,4 +1,4 @@
-package oakbricks.textileagriculture.blocks;
+package org.oakbricks.textileagriculture.blocks;
 
 import net.minecraft.block.SaplingBlock;
 import net.minecraft.block.sapling.SaplingGenerator;

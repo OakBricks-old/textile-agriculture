@@ -1,20 +1,19 @@
-package oakbricks.textileagriculture.init;
+package org.oakbricks.textileagriculture.init;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import oakbricks.textileagriculture.TextileAgricultureMain;
-import oakbricks.textileagriculture.blocks.AvocadoLeafBlock;
-import oakbricks.textileagriculture.blocks.AvocadoSaplingBlock;
-import oakbricks.textileagriculture.util.AvocadoSaplingGenerator;
+import org.oakbricks.textileagriculture.TextileAgricultureMain;
+import org.oakbricks.textileagriculture.blocks.AvocadoLeafBlock;
+import org.oakbricks.textileagriculture.blocks.AvocadoSaplingBlock;
+import org.oakbricks.textileagriculture.util.AvocadoSaplingGenerator;
 
-import static oakbricks.textileagriculture.TextileAgricultureMain.AVOCADO_TREE;
+import static org.oakbricks.textileagriculture.TextileAgricultureMain.AVOCADO_TREE;
 
 public class ModBlocks {
 

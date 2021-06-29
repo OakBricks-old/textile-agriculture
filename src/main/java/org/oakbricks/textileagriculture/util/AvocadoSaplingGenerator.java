@@ -1,4 +1,4 @@
-package oakbricks.textileagriculture.util;
+package org.oakbricks.textileagriculture.util;
 
 import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.world.gen.feature.ConfiguredFeature;

@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "oakbricks.textileagriculture.TextileAgricultureMain"
+      "org.oakbricks.textileagriculture.TextileAgricultureMain"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "textile_agriculture.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +31,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
