@@ -24,7 +24,7 @@ public class AvocadoFoliagePlacer extends FoliagePlacer {
     public static final Codec<AvocadoFoliagePlacer> CODEC = RecordCodecBuilder.create(instance ->
             fillFoliagePlacerFields(instance)
                     .and(IntProvider.createValidatingCodec(1, 512).fieldOf("foliage_height").forGetter(AvocadoFoliagePlacer::getFoliageHeight)
-                            .apply(instance, AvocadoFoliagePlacer::new));
+                            .apply(instance, AvocadoFoliagePlacer::new)));
 
     private final IntProvider foliageHeight;
 
