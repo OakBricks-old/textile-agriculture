@@ -1,4 +1,4 @@
-package org.oakbricks.textileagriculture.blocks;
+package org.oakbricks.textileagriculture.blocks.avocado;
 
 import net.minecraft.block.LeavesBlock;
 

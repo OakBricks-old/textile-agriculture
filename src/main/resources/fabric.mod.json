@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "org.oakbricks.textileagriculture.TextileAgricultureMain"
+    ],
+    "client": [
+      "org.oakbricks.textileagriculture.TextileAgricultureClient"
     ]
   },
   "mixins": [

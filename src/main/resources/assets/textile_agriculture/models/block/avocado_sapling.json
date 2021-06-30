@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "textile_agriculture:block/avocado_sapling"
+  }
+}

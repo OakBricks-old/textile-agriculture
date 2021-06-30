@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "textile_agriculture:block/holly_berries/3"
+  }
+}

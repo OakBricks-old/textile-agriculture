@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "textile_agriculture:block/holly_berries/0"
+    },
+    "age=1": {
+      "model": "textile_agriculture:block/holly_berries/1"
+    },
+    "age=2": {
+      "model": "textile_agriculture:block/holly_berries/2"
+    },
+    "age=3": {
+      "model": "textile_agriculture:block/holly_berries/3"
+    }
+  }
+}
