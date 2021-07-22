@@ -14,19 +14,19 @@ public class TextileAgricultureClient implements ClientModInitializer {
      */
     @Override
     public void onInitializeClient() {
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
-                view != null && pos != null
-                    ? BiomeColors.getFoliageColor(view, pos)
-                    : FoliageColors.getDefaultColor(), ModBlocks.AVOCADO_LEAVES);
-
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex == 0
-                ? FoliageColors.getDefaultColor()
-                : FoliageColors.getDefaultColor(), ModBlocks.AVOCADO_LEAVES.asItem());
+//        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
+//                view != null && pos != null
+//                    ? BiomeColors.getFoliageColor(view, pos)
+//                    : FoliageColors.getDefaultColor(), ModBlocks.AVOCADO_LEAVES);
+//
+//        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> tintIndex == 0
+//                ? FoliageColors.getDefaultColor()
+//                : FoliageColors.getDefaultColor(), ModBlocks.AVOCADO_LEAVES.asItem());
 
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HOLLY_BERRY_BUSH, RenderLayer.getCutoutMipped());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AVOCADO_SAPLING, RenderLayer.getCutoutMipped());
+//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AVOCADO_SAPLING, RenderLayer.getCutoutMipped());
 
     }
 }
